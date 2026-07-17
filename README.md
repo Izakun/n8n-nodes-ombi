@@ -12,5 +12,18 @@ Install via **Settings -> Community Nodes -> Install** -> `n8n-nodes-ombi`.
 ## Credentials
 Configure the base URL and authentication in the **Ombi API** credential.
 
+## Usage example
+
+Check server status:
+
+1. Add the node after a trigger (e.g. *When clicking 'Test workflow'*).
+2. Select your credential.
+3. **Get Status**.
+4. Execute the node — example output:
+
+```json
+{ "version": "4.44.1", "newVersion": null }
+```
+
 ## Disclaimer
 Not affiliated with or endorsed by the respective project.

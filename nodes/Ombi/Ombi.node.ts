@@ -16,7 +16,7 @@ export class Ombi implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Ombi',
 		name: 'ombi',
-		icon: { light: 'file:ombi.svg', dark: 'file:ombi.svg' },
+		icon: { light: 'file:ombi.svg', dark: 'file:ombi.dark.svg' },
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
